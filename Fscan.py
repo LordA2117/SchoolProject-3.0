@@ -18,7 +18,7 @@ def readWorkbook(path) -> dict:
 
 
 # pprint(readWorkbook(
-#     r"C:\Users\abhin\OneDrive\Desktop\SchoolData\Bhaswati Chattopadhyay.xlsx")
+#     r".\SchoolData\Bhaswati Chattopadhyay.xlsx")
 # )
 
 # 2 kinds of clashes:
@@ -122,7 +122,7 @@ def createNewTimetable(number_of_periods, number_of_days, folder, name, teacher_
         while i < number_of_periods:
             period = random.choice(available_periods)
             numPeriod = periods.count(period)
-            if numPeriod <= 1:  # This works but i don't know why. For some reason, this creates a timetable in which a period can occur at max 2 times a day.
+            if numPeriod <= 1:  # This works but i don't know why. For some reason, this creates a timetable in which a period can occur at most 2 times a day.
                 periods.append(period)
             else:
                 available_periods.remove(period)
@@ -159,4 +159,4 @@ teachersAndSubjects = {
 } #Test data
 
 # createNewTimetable(
-#     8, 5, r"C:\Users\abhin\OneDrive\Desktop\do NOT delete", 'random', teachersAndSubjects)
+#     8, 5, r"file path", 'filename', teachersAndSubjects)
