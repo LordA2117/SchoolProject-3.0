@@ -127,7 +127,7 @@ def main():
     fileList = listdir(k)
     main_window(fileList, k)
 
-# Scope: Compare timetable of one teacher to another for checking clashes. Most manipulations will be performed only on 2 timetables.
+# Scope: Compare timetable of one teacher to another for checking clashes. Most manipulations will be performed only on 2 timetables. It is also possible to generate boilerplate timetables that can be edited as the user sees fit. Any clashes that arise can be checked using the app.
 
 
 if __name__ == '__main__':
