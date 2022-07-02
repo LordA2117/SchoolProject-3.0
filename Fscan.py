@@ -156,7 +156,7 @@ teachersAndSubjects = {
     'Biology(S)': 'Swami',
     'Physics(SS)': 'Susan Sobi',
     'PT(M)': 'Maruthupandian'
-}
+} #Test data
 
 # createNewTimetable(
 #     8, 5, r"C:\Users\abhin\OneDrive\Desktop\do NOT delete", 'random', teachersAndSubjects)
